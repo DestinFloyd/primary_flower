@@ -1,0 +1,404 @@
+.containerPage1{
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border: solid red;
+    justify-content: space-between;
+}
+.A{
+border: solid blue;
+background: blue;
+
+}
+.B{
+border: solid lightblue;
+
+}
+.C{
+border: solid darkblue;
+
+}
+.bigBox{
+    height: 400px; 
+    width: 400px;
+    background-color:lightblue;
+    display: flex;
+    margin: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    position: absolute;
+    z-index: 1;
+}
+.coverPrimary{
+height: 400px; 
+width: 400px;
+margin: 200px;
+display: flex;
+display: row;
+flex-wrap: wrap;
+position: absolute;
+z-index: 6;
+}
+.topLeft{
+height: 200px;
+width: 200px;
+background-color: rgba(255, 255, 0, 0.5);
+border-radius: 0px 100px 0px 100px;
+display: flex;
+
+
+}
+.topRight{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 0, 0.5);
+    border-radius: 100px 0px 100px 0px;
+    display: flex;
+}
+.bottomLeft{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 0, 0.5);
+    border-radius: 100px 0px 100px 0px;
+    display: flex;
+}
+.bottomRight{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(255, 255, 0, 0.5);
+ border-radius: 0px 100px 0px 100px;
+ display: flex;
+}
+
+.topLeft1{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(0, 0, 255, 0.5);  
+ border-radius: 0px 100px 0px 100px;
+ position: relative;
+ z-index: 2;
+ height: 100%;
+ width: 100%;
+ }   
+ .topRight1{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(0, 0, 255, 0.5);  
+ border-radius: 100px 0px 100px 0px;
+ position: relative;
+ z-index: 2;
+ }  
+ .bottomLeft1{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(0, 0, 255, 0.5); 
+ border-radius: 100px 0px 100px 0px;
+ position: relative;
+ z-index: 2;
+ }   
+ .bottomRight1{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(0, 0, 255, 0.5); 
+ border-radius: 0px 100px 0px 100px;
+ position: relative;
+ z-index: 2;
+ }  
+
+
+ .topLeft2{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(255, 0, 0, 0.5);  
+ border-radius: 0px 100px 0px 100px;
+ position: relative;
+ z-index: 3;
+ }   
+ .topRight2{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(255, 0, 0, 0.5);  ;  
+ border-radius: 100px 0px 100px 0px;
+ position: relative;
+ z-index: 3;
+ }  
+ .bottomLeft2{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(255, 0, 0, 0.5);  ;  
+ border-radius: 100px 0px 100px 0px;
+ position: relative;
+ z-index: 3;
+ }   
+ .bottomRight2{
+    height: 200px;
+    width: 200px;
+ background-color: rgba(255, 0, 0, 0.5);  ;  
+ border-radius: 0px 100px 0px 100px;
+ position: relative;
+ z-index: 3;
+ } 
+
+
+.c1{
+border: solid silver;
+border-width: thick;
+height: 100px;
+width: 100px;
+border-radius: 50px;    
+background-color: silver;
+position: relative;
+z-index: 3;
+transform: translate(150px, -250px);
+display: flex; 
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.cinner{
+border-radius: 50%;
+height: 40%;
+width: 40%;
+margin: 0;
+display: flex;
+background: silver;
+position: relative;
+z-index: 2;
+}
+
+.coverPrimary:hover
+.topLeft{
+animation: frame 3s infinite;
+}
+.coverPrimary:hover
+.topRight{
+animation: framey 3s infinite;
+}
+.coverPrimary:hover
+.bottomLeft{
+animation: frameb 3s infinite;
+     } 
+.coverPrimary:hover
+.bottomRight{
+animation: frameg 3s infinite;
+} 
+
+.coverPrimary:hover
+.topLeft1{
+    animation: framer1 3s infinite;
+}
+.coverPrimary:hover
+.topRight1{
+    animation: framey2 3s infinite;
+}
+.coverPrimary:hover
+.bottomLeft1{
+    animation: frameb3 3s infinite;
+}
+.coverPrimary:hover
+.bottomRight1{
+    animation: frameg4 3s infinite;
+}
+.coverPrimary:hover
+.topLeft2{
+    animation: framer11 3s infinite;
+}
+.coverPrimary:hover
+.topRight2{
+    animation: framey21 3s infinite;
+}
+.coverPrimary:hover
+.bottomLeft2{
+    animation: frameb31 3s infinite;
+}
+.coverPrimary:hover
+.bottomRight2{
+    animation: frameg41 3s infinite;
+}
+
+.coverPrimary:hover
+.circle{
+background: none;
+border: none;
+    /* animation: biggest 3s infinite; */
+}
+
+
+.coverPrimary:hover
+.cinner1{
+    animation: cir1 3s infinite;
+  
+}
+.coverPrimary:hover
+.cinner2{
+    animation: cir2 3s infinite;  
+}
+.coverPrimary:hover
+.cinner3{
+    animation: cir3 3s infinite;
+}
+.coverPrimary:hover
+.cinner4{
+    animation: cir4 3s infinite;  
+}
+
+/*  SET 1 SET 1 SET 1 SET 1 v SET 1 SET 1 SET 1 */
+/* top Left */
+@keyframes frame{
+    0%{
+            
+    }
+    50%{ 
+    transform: rotate(90deg);
+    transform-origin: top left;} 
+    animation{duration: 4s}
+    }
+    /*  top right */
+    @keyframes framey{
+    0%{          
+    }
+    50%{ 
+    transform: rotate(-90deg);
+    transform-origin: top right;} 
+    animation{duration: 4s}
+    }
+    /*  bottom left */
+    @keyframes frameb{
+    0%{              
+    }
+    50%{ 
+    transform: rotate(-90deg);
+    transform-origin: bottom left;} 
+    animation{duration: 4s}
+    }
+    /* bottom right */
+    @keyframes frameg{
+    0%{                    
+    }
+    50%{ 
+    transform: rotate(90deg);
+    transform-origin: bottom right;} 
+    animation{duration: 4s}
+    }
+    
+    /*  set two:  */
+    /* ==================== */
+    /* ==================== */
+    /* ==================== */
+    /* ==================== */
+    /* ==================== */
+    /*  top left */
+    @keyframes framer1{
+        0%{              
+        }
+        50%{ 
+            /* and 135 make 3 */
+        transform: rotate(90deg);
+        transform-origin: top left;} 
+        animation{duration: 4s}
+        }
+    /* //top right */
+        @keyframes framey2{
+        0%{          
+        }
+        50%{ 
+        transform: rotate(-90deg);
+        transform-origin: top right;} 
+        animation{duration: 4s}
+        }
+        /* bottom left  */
+        @keyframes frameb3{
+        0%{              
+        }
+        50%{ 
+        transform: rotate(-90deg);
+        transform-origin: bottom left;} 
+        animation{duration: 4s}
+        }
+    
+    /*  bottom right */
+        @keyframes frameg4{
+        0%{                    
+        }
+        50%{ 
+        transform: rotate(90deg);
+        transform-origin: bottom right;} 
+        animation{duration: 4s}
+        }
+    
+    
+        /*  set 3 set 3 set 3 set 3 set 3 */
+    
+        @keyframes framer11{
+            0%{              
+            }
+            50%{ 
+                /* and 135 make 3 */
+            transform: rotate(90deg);
+            transform-origin: top left;} 
+            animation{duration: 4s}
+            }
+        /* //top right */
+            @keyframes framey21{
+            0%{          
+            }
+            50%{ 
+            transform: rotate(-90deg);
+            transform-origin: top right;} 
+            animation{duration: 4s}
+            }
+            /* bottom left  */
+            @keyframes frameb31{
+            0%{              
+            }
+            50%{ 
+            transform: rotate(-90deg);
+            transform-origin: bottom left;} 
+            animation{duration: 4s}
+            }
+        
+        /*  bottom right */
+            @keyframes frameg41{
+            0%{                    
+            }
+            50%{ 
+            transform: rotate(90deg);
+            transform-origin: bottom right;} 
+            animation{duration: 4s}
+            }
+    /*  biggest circle */
+    @keyframes biggest{
+        0%{
+        }
+        50%{
+        }
+        85%{
+    
+        }
+    }
+    @keyframes cir1{
+        0% { transform: scale(2);}
+        50% { transform: translate(-175px, -175px);}
+        75% { transform: translate(-175px, -175px) scale(2)}
+    }
+    @keyframes cir2{
+        0% { transform: scale(2);}
+        50% { transform: translate(175px, -175px);}
+        75% { transform: translate(175px, -175px) scale(2)}
+    }
+    @keyframes cir3{
+        0% { transform: scale(2);}
+        50% { transform: translate(-175px, 175px);}
+        75% { transform: translate(-175px, 175px) scale(2)}
+    }
+    @keyframes cir4{
+        0% { transform: scale(2);}
+        50% { transform: translate(175px, 175px);}
+        75% { transform: translate(175px, 175px) scale(2)}
+        
+    }
